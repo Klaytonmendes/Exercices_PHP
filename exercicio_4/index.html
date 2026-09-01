@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link type="text/css" rel="stylesheet" hef="styles.css" />
+</head>
+<body>
+    <h1 style="color: #0088bb;">QUARTO EXERCÍCIO</h1>
+    <form action="ex4.php" method="post">
+        <div>
+            <label for="input-ano-nascimento">Digite o ano de seu nascimento:</label>
+            <input id="input-ano-nascimento" type="number" min="1850" max="2026" name="ano_nascimento" required/>
+        </div>
+    <br>
+        <div>
+            <label for="input-ano-inicio">Em qual ano você iniciou o trabalho nesta empresa:</label>
+            <input id="input-ano-inicio" type="number" min="1850" max="2026" name="ano_inicio" required/>
+        </div>
+    <br>
+    <input type="submit" name="enviar"/>
+    </form>
+</body>
+</html>

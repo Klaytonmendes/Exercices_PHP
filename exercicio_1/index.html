@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link type="text/css" rel="stylesheet" hef="styles.css" />
+</head>
+<body>
+    <h1 style="color: #0088bb;">PRIMEIRO EXERCÍCIO</h1>
+    <form action="ex1.php" method="post">
+
+    <div>
+        <label for="input-name">ID:</label>
+        <input id="input-name" type="text" name="id" placeholder="ex: 24166" required/>
+    </div>
+    <br>
+    <div>
+        <label for="input-nota-1">Primeira Nota:</label>
+        <input id="input-nota-1" type="number" min="0" max="10" name="n1" required/>
+    </div>
+    <br>
+    <div>
+        <label for="input-nota-2">Segunda Nota:</label>
+        <input id="input-nota-2" type="number" min="0" max="10" name="n2" required/>
+    </div>
+    <br>
+    <div>
+        <label for="input-nota-3">Terceira Nota:</label>
+        <input id="input-nota-3" type="number" min="0" max="10" name="n3" required/>
+    </div>
+    <br>
+    <div>
+        <label for="input-nota-4">Quarta Nota:</label>
+        <input id="input-nota-4" type="number" min="0" max="10" name="n4" required/>
+    </div>
+    <br>
+    <input type="submit" name="enviar"/>
+    </form>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link type="text/css" rel="stylesheet" hef="styles.css" />
+</head>
+<body>
+    <h1 style="color: #0088bb;">SEGUNDO EXERCÍCIO</h1>
+    <form action="ex2.php" method="post">
+        <div>
+            <label for="alcool">
+                <input id="alcool" type="radio" name="quero" required/> Alcool
+            </label>
+            <label for="gasolina">
+                <input id="gasolina" type="radio" name="tipo" required/>Gasolina
+            </label>
+        </div>
+        <br>
+        <div>
+            <label for="input-litros">Quantos litros você quer?</label>
+            <input id="input-litros" type="text" name="litros" required/>
+        </div>
+    <br>
+    <input type="submit" name="enviar"/>
+    </form>
+</body>
+</html>
