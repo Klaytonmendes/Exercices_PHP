@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="new_ex5.php" method="post">
+        <div>
+            <label for="input-idade">Digite a sua idade:</label>
+            <input id="input-idade" type="number" min="18" max="150" name="idade" required/>
+        </div>
+        <br>
+        <div>
+            Você está grávida?
+            <label for="sim">
+                <input id="sim" type="radio" value="S" name="sim_nao" required/>Sim
+            </label>
+            <label for="nao">
+                <input id="nao" type="radio" value="N" name="sim_nao" required/>Não    
+            </label>
+        </div>
+        <br>
+        <input type="submit" name="Enviar" />
+    </form>
+</body>
+</html>
